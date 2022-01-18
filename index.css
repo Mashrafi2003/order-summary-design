@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+.main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.card-main {
+  background-color: white;
+  border-radius: 20px;
+  width: 350px;
+}
+.card-image img {
+  width: 350px;
+  margin-bottom: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-main h2 {
+  margin-top: -45px;
+  margin-bottom: 20px;
+}
+.card-main p {
+  color: gray;
+}
+.card-text {
+  padding: 30px;
+}
+.annual-bill {
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding-bottom: 5px;
+  background-color: rgb(209, 209, 245);
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.annual-bill button {
+  border: none;
+  color: hsl(245, 75%, 52%);
+  background-color: none;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: inherit;
+  margin-right: 15px;
+}
+.annual-bill img {
+  padding-top: -5px;
+  margin-left: 20px;
+}
+.annual-plan {
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: left;
+  margin-top: 8px;
+}
+.annual-plan h5 {
+  color: gray;
+}
+.annual-plan h4 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.proceed {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 15px;
+  border: none;
+}
+.cancel {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: gray;
+  border: none;
+  background-color: white;
+}
